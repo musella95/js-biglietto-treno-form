@@ -20,21 +20,23 @@
 
   </header>
   <main>
-    <form>
-      <div class="container">
+
+    <div class="container">
+      <form>
         <div class="row">
+
           <div class="mb-3 col-3">
             <label for="inputNameUser" class="form-label">nome</label>
-            <input type="text" class="form-control" id="inputNameUser" >
+            <input type="text" class="form-control" id="inputNameUser">
           </div>
-        
+
           <div class="mb-3 col-3">
             <label for="inputSurnameUser" class="form-label">Cognome</label>
-            <input type="text" class="form-control" id="inputSurnameUser" >
+            <input type="text" class="form-control" id="inputSurnameUser">
           </div>
           <div class="mb-3 col-3">
             <label for="inputKmUser" class="form-label">km da percorrere</label>
-            <input type="number" class="form-control" id="inputKmUser" >
+            <input type="number" class="form-control" id="inputKmUser">
           </div>
           <div class="mb-3 col-3">
             <label for="inputAge" class="form-label">Età</label>
@@ -44,16 +46,28 @@
               <option value="middleAge">middleAge</option>
               <option value="overAge">overAge</option>
             </select>
-            
+
           </div>
+
         </div>
         <div class="row">
           <div class="col-auto">
             <button type="submit" class="btn btn-primary mb-3" id="submitBtn">Generate</button>
           </div>
         </div>
+      </form>
+      <div class="row">
+        <div class="col">
+          <p id="passengerName"><strong>nome del passeggero </strong></p>
+          <p id="passengerSurname"><strong>cognome</strong></p>
+          <p id="distanceKm"><strong>kilometri da percorrere</strong></p>
+          <p id="ticketCode"><strong>codice biglietto</strong></p>
+          <p id="ticketPrize"><strong>prezzo del biglietto</strong></p>
+        </div>
       </div>
-    </form>
+    </div>
+
+
   </main>
   <footer>
 
